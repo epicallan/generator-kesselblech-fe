@@ -18,7 +18,7 @@ export const development = series(
 		// Start browserSync
 		browsersync.init({
 			server: {
-				baseDir: ['src', 'dest'],
+				baseDir: ['dest'],
 				routes: {
 					'/node_modules': 'node_modules',
 				},
